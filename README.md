@@ -1,6 +1,11 @@
+# Installation
+```
+npm i time-left-bar
+```
+
 # Example Usage
 ```js
-import { TimeLeftBar } from "min-pb";
+import { TimeLeftBar } from "time-left-bar";
 
 function App() {
   function greet() {
