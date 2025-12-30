@@ -1,0 +1,29 @@
+{
+  "name": "min-pb",
+  "version": "1.0.1",
+  "description": "A minimal react progress bar component",
+  "license": "MIT",
+  "author": "Youseph Zidan",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "access": "public",
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vite": "^7.2.4",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "~5.9.3"
+  }
+}
