@@ -25,5 +25,9 @@
     "vite": "^7.2.4",
     "@vitejs/plugin-react": "^5.1.1",
     "typescript": "~5.9.3"
-  }
+  },
+ "repository": {
+   "type": "git",
+   "url": "https://github.com/yousephzidan/time-left-bar"
+ }
 }
